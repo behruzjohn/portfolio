@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Behruz | Frontent Veb Dasturchi",
+    "description": "React, Node.js va zamonaviy veb-texnologiyalarga ixtisoslashgan Senior Full-Stack dasturchi Behruzning portfoliosi."
+  },
+  "navbar": {
+    "home": "Bosh Sahifa",
+    "about": "Men Haqimda",
+    "skills": "Ko'nikmalar",
+    "projects": "Loyihalar",
+    "contact": "Bog'lanish"
+  },
+  "hero": {
+    "badge": "Ishlashga tayyorman",
+    "greeting": "Salom, men",
+    "role": "Full-Stack Veb Dasturchi",
+    "description": "Zamonaviy, samarali va qulay veb-saytlar yaratuvchi Frontent junior middle frontend  dasturchiman. G‘oyalarni kod orqali haqiqatga aylantiraman.",
+    "hire_me": "Men bilan bo'glanish",
+    "view_projects": "Loyihalarni ko'rish"
+  },
+  "about": {
+    "title": "Men Haqimda",
+    "subtitle": "Men O'zbekistonda yashovchi Frontent dasturchiman.",
+    "description_1": "Veb-dasturlash bo'yicha mustahkam poydevorga ega bo'lib, kengayuvchan, moslashuvchan va foydalanuvchiga qulay ilovalar yaratishga ixtisoslashganman. Mening sayohatim veb qanday ishlashiga qiziqishdan boshlanib, murakkab muammolarni kod orqali hal qilish kasbiga aylandi.",
+    "description_2": "Men (MongoDB, Express, React, Node.js) va Tailwind CSS, Next.js kabi zamonaviy vositalar bilan ishlashni yaxshi ko'raman. Bo'sh vaqtimda yangi texnologiyalarni o'rganaman yoki Ijtimoiy tarmoqlardan texnologiya hamjamiyatini kuzatib boraman.",
+    "experience": "Tajriba",
+    "email": "Email",
+    "location": "Manzil",
+    "availability": "Holat",
+    "open_to_work": "Ishga tayyor",
+    "years": "1+ Yil"
+  },
+  "skills": {
+    "title": "Mening Ko'nikmalarim",
+    "subtitle": "G‘oyalarni amalga oshirishda foydalanadigan texnologiyalarim.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Vositalar"
+  },
+  "projects": {
+    "title": "Tanlangan Loyihalar",
+    "subtitle": "Mening so'nggi ishlarimdan namunalar.",
+    "project_1_title": "Behruz-Restaurant",
+    "project_1_desc": "Restaurnatim – restoran va kafe biznesingizni samarali boshqarish uchun mo‘ljallangan, menyu, buyurtmalar va inventarizatsiyani real vaqt rejimida kuzatish imkonini beruvchi qulay va interaktiv admin panel.",
+    "project_2_title": "Tafsif-book",
+    "project_2_desc": "Tafsif-Book – kitoblarni qidirish, ularning tafsilotlarini o‘rganish va shaxsiy kutubxonangizga qo‘shish imkonini beruvchi interaktiv platforma. Foydalanuvchilar kitoblar haqida ma’lumot oladi, izlash va qo‘shish jarayonini osonlashtiradi.",
+    "project_3_title": "Don don ziki o'yini",
+    "project_3_desc": "Don Don Ziki – kompyuterga qarshi o‘ynaladigan interaktiv va qiziqarli o‘yin. Foydalanuvchilar tezkor fikrlash va strategik qarorlar qabul qilish orqali raqibni mag‘lub etishga harakat qiladi."
+  },
+  "contact": {
+    "title": "Bog'lanish",
+    "subtitle": "Biror loyiha bormi? Keling, birga ishlaymiz.",
+    "info_title": "Aloqa ma'lumotlari",
+    "label_name": "Ism",
+    "placeholder_name": "Ismingiz",
+    "label_email": "Email",
+    "placeholder_email": "sizning@email.com",
+    "label_message": "Xabar",
+    "placeholder_message": "Xabaringiz...",
+    "send_btn": "Xabar Yuborish"
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Behruz | Frontent Web Developer",
+    "description": "Portfolio of Behruz, a Senior Full-Stack Web Developer specializing in React, Node.js, and modern web experiences."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Available for Work",
+    "greeting": "Hi, I'm",
+    "role": "Full-Stack Web Developer",
+    "description": "I am a Frontend junior/middle developer creating modern, efficient, and user-friendly websites. I turn ideas into reality through code.",
+    "hire_me": "Hire Me",
+    "view_projects": "View Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "I'm a passionate Full-Stack Developer based in Uzbekistan.",
+    "description_1": "With a strong foundation in web development, I specialize in building scalable, responsive, and user-centric applications. My journey started with a curiosity for how the web works, which evolved into a career of solving complex problems through code.",
+    "description_2": "I love working with the (MongoDB, Express, React, Node.js) and modern tools like Tailwind CSS and Next.js. When I'm not coding, you can find me learning new technologies or exploring the tech community on Telegram.",
+    "experience": "Experience",
+    "email": "Email",
+    "location": "Location",
+    "availability": "Availability",
+    "open_to_work": "Open to Work",
+    "years": "1+ Years"
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "Technologies I work with to bring ideas to life.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools & Others"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of my recent work.",
+    "project_1_title": "E-Commerce Dashboard",
+    "project_1_desc": "A comprehensive admin dashboard for e-commerce platforms with real-time analytics and inventory management.",
+    "project_2_title": "Social Media App",
+    "project_2_desc": "A modern social media application featuring real-time messaging, post sharing, and user profiles.",
+    "project_3_title": "Travel Booking Platform",
+    "project_3_desc": "An intuitive booking platform for flights and hotels with integrated map services and payment gateways."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's work together.",
+    "info_title": "Contact Information",
+    "label_name": "Name",
+    "placeholder_name": "Your Name",
+    "label_email": "Email",
+    "placeholder_email": "your@email.com",
+    "label_message": "Message",
+    "placeholder_message": "Your message...",
+    "send_btn": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
