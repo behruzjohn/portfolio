@@ -9,9 +9,13 @@ export default {
     extend: {
       colors: {
         dark: "#0a0a0a",
+        primary: "rgb(var(--primary) / <alpha-value>)",
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       }
     },
   },

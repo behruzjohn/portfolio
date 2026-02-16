@@ -14,20 +14,20 @@
     "badge": "Ishlashga tayyorman",
     "greeting": "Salom, men",
     "role": "Full-Stack Veb Dasturchi",
-    "description": "Zamonaviy, samarali va qulay veb-saytlar yaratuvchi Frontent junior middle frontend  dasturchiman. G‘oyalarni kod orqali haqiqatga aylantiraman.",
+    "description": "Zamonaviy va qulay veb-saytlar yaratuvchi Frontend Middle dasturchiman. G‘oyalarni kod orqali hayotga tatbiq qilaman va doimiy o‘rganishga intilaman.",
     "hire_me": "Men bilan bo'glanish",
     "view_projects": "Loyihalarni ko'rish"
   },
   "about": {
     "title": "Men Haqimda",
-    "subtitle": "Men O'zbekistonda yashovchi Frontent dasturchiman.",
-    "description_1": "Veb-dasturlash bo'yicha mustahkam poydevorga ega bo'lib, kengayuvchan, moslashuvchan va foydalanuvchiga qulay ilovalar yaratishga ixtisoslashganman. Mening sayohatim veb qanday ishlashiga qiziqishdan boshlanib, murakkab muammolarni kod orqali hal qilish kasbiga aylandi.",
-    "description_2": "Men (MongoDB, Express, React, Node.js) va Tailwind CSS, Next.js kabi zamonaviy vositalar bilan ishlashni yaxshi ko'raman. Bo'sh vaqtimda yangi texnologiyalarni o'rganaman yoki Ijtimoiy tarmoqlardan texnologiya hamjamiyatini kuzatib boraman.",
+    "subtitle": "Men Baxtiyorov Behruz,Jizzax shahrida yashovchi Frontend dasturchiman.",
+    "description_1": "Men 15 yoshdaman va Jizzax shahridagi 11-maktabda o‘qiyman. Kitob o‘qishdan ko‘ra amaliy narsalarni o‘rganishni yoqtiraman. Bo‘sh vaqtimni texnologiya, dasturlash va o‘yinlar bilan shug‘ullanishga sarflayman.",
+    "description_2": "Men yangi narsalarni tez o‘rganaman va qiyinchiliklarga duch kelganimda yechim topishga intilaman.",
     "experience": "Tajriba",
     "email": "Email",
     "location": "Manzil",
-    "availability": "Holat",
-    "open_to_work": "Ishga tayyor",
+    "learnedIn": "Ta’lim olgan joy",
+    "companyNameToLearn": "AliCode IT akademiyasi",
     "years": "1+ Yil"
   },
   "skills": {
@@ -39,7 +39,7 @@
   },
   "projects": {
     "title": "Tanlangan Loyihalar",
-    "subtitle": "Mening so'nggi ishlarimdan namunalar.",
+    "subtitle": "Mening so'nggi ishlagan asosiy loyihalarim.Qolganlari mening github sahifamda!",
     "project_1_title": "Behruz-Restaurant",
     "project_1_desc": "Restaurnatim – restoran va kafe biznesingizni samarali boshqarish uchun mo‘ljallangan, menyu, buyurtmalar va inventarizatsiyani real vaqt rejimida kuzatish imkonini beruvchi qulay va interaktiv admin panel.",
     "project_2_title": "Tafsif-book",
@@ -49,15 +49,19 @@
   },
   "contact": {
     "title": "Bog'lanish",
-    "subtitle": "Biror loyiha bormi? Keling, birga ishlaymiz.",
-    "info_title": "Aloqa ma'lumotlari",
+    "subtitle": "Biror loyiha ustida ishlayapsizmi yoki hamkorlik qilmoqchimisiz? Murojaat qilishdan tortinmang. Men har doim yangi loyihalar, ijodiy g‘oyalar yoki sizning vizyonlaringizga qo‘shilish imkoniyatlarini muhokama qilishga tayyorman.",
+    "info_title": "Kontakt ma’lumotlari",
     "label_name": "Ism",
-    "placeholder_name": "Ismingiz",
-    "label_email": "Email",
-    "placeholder_email": "sizning@email.com",
+    "placeholder_name": "Sizning ismingiz",
+    "label_email": "Elektron pochta",
+    "email": "Email",
+    "placeholder_email": "siz@email.com",
     "label_message": "Xabar",
-    "placeholder_message": "Xabaringiz...",
-    "send_btn": "Xabar Yuborish"
+    "location": "Manzil",
+    "call_me": "Qo‘ng‘iroq qiling",
+    "placeholder_message": "Sizning xabaringiz...",
+    "send_btn": "Xabar yuborish",
+    "btn-placeholder": "Mening loyiham haqida aytib bering..."
   },
   "footer": {
     "rights": "Barcha huquqlar himoyalangan."

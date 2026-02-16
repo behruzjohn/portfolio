@@ -26,9 +26,9 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className='text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6'>
-              {t('hero.greeting')}{' '}
-              <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600'>
-                Behruz
+              {t('hero.greeting')}
+              <span className='text-transparent bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600'>
+                {''} Behruz
               </span>
             </h1>
             <p className='text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed'>

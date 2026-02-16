@@ -11,24 +11,24 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Available for Work",
-    "greeting": "Hi, I'm",
+    "badge": "Ready to Work",
+    "greeting": "Hello, I am",
     "role": "Full-Stack Web Developer",
-    "description": "I am a Frontend junior/middle developer creating modern, efficient, and user-friendly websites. I turn ideas into reality through code.",
-    "hire_me": "Hire Me",
+    "description": "I am a Junior Frontend Developer who creates modern and user-friendly websites. I bring ideas to life through code and constantly strive to learn and improve.",
+    "hire_me": "Contact Me",
     "view_projects": "View Projects"
   },
   "about": {
     "title": "About Me",
-    "subtitle": "I'm a passionate Full-Stack Developer based in Uzbekistan.",
-    "description_1": "With a strong foundation in web development, I specialize in building scalable, responsive, and user-centric applications. My journey started with a curiosity for how the web works, which evolved into a career of solving complex problems through code.",
-    "description_2": "I love working with the (MongoDB, Express, React, Node.js) and modern tools like Tailwind CSS and Next.js. When I'm not coding, you can find me learning new technologies or exploring the tech community on Telegram.",
+    "subtitle": "My name is Bakxtiyorov Behruz, and I am a Frontend developer living in Jizzakh city.",
+    "description_1": "I am 15 years old and currently studying at School №11 in Jizzakh. I prefer learning practical things rather than reading books. In my free time, I enjoy technology, programming, and gaming.",
+    "description_2": "I learn new things quickly and always try to find solutions when I face challenges.",
     "experience": "Experience",
     "email": "Email",
     "location": "Location",
-    "availability": "Availability",
-    "open_to_work": "Open to Work",
-    "years": "1+ Years"
+    "learnedIn": "Place of Study",
+    "companyNameToLearn": "AliCode IT Academy",
+    "years": "1+ Year"
   },
   "skills": {
     "title": "My Skills",
@@ -39,7 +39,7 @@
   },
   "projects": {
     "title": "Featured Projects",
-    "subtitle": "A selection of my recent work.",
+    "subtitle": "My latest main projects. You can find the rest on my GitHub page!",
     "project_1_title": "E-Commerce Dashboard",
     "project_1_desc": "A comprehensive admin dashboard for e-commerce platforms with real-time analytics and inventory management.",
     "project_2_title": "Social Media App",
@@ -49,15 +49,19 @@
   },
   "contact": {
     "title": "Get In Touch",
-    "subtitle": "Have a project in mind? Let's work together.",
+    "subtitle": "Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
     "info_title": "Contact Information",
     "label_name": "Name",
     "placeholder_name": "Your Name",
-    "label_email": "Email",
+    "label_email": "Email Me",
+    "email": "Email",
     "placeholder_email": "your@email.com",
     "label_message": "Message",
+    "location": "Location",
+    "call_me": "Call Me",
     "placeholder_message": "Your message...",
-    "send_btn": "Send Message"
+    "send_btn": "Send Message",
+    "btn-placeholder": "Tell me about my project..."
   },
   "footer": {
     "rights": "All rights reserved."
