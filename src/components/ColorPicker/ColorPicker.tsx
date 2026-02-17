@@ -2,6 +2,7 @@ import { Palette } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const colors = [
   { name: 'Blue', value: '#3B82F6' },
@@ -14,6 +15,7 @@ const colors = [
 ];
 
 const ColorPicker = () => {
+  const { t } = useTranslation();
   const { primaryColor, setPrimaryColor } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -70,7 +72,7 @@ const ColorPicker = () => {
             </div>
             <div className='mt-3 pt-3 border-t border-slate-200 dark:border-white/10'>
               <span className='text-xs text-slate-500 dark:text-slate-400 block mb-2 text-center'>
-                Custom Hex
+                {t('colorMixer.title')}
               </span>
               <input
                 type='color'

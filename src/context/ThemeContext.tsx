@@ -12,17 +12,17 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  // Initialize from localStorage or default
+export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [theme, setTheme] = useState<Theme>(
-    () => (localStorage.getItem('theme') as Theme) || 'dark'
-  );
-  
-  const [primaryColor, setPrimaryColor] = useState<string>(
-    () => localStorage.getItem('primaryColor') || '#3B82F6' // Default Blue
+    () => (localStorage.getItem('theme') as Theme) || 'dark',
   );
 
-  // Apply theme class to html element
+  const [primaryColor, setPrimaryColor] = useState<string>(
+    () => localStorage.getItem('primaryColor') || '#3B82F6',
+  );
+
   useEffect(() => {
     const root = window.document.documentElement;
     root.classList.remove('light', 'dark');
@@ -30,16 +30,14 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  // Apply primary color as CSS variable
   useEffect(() => {
     const root = window.document.documentElement;
-    
-    // Convert hex to RGB for Tailwind opacity support
+
     const hexToRgb = (hex: string) => {
       const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-      return result 
-        ? `${parseInt(result[1], 16)} ${parseInt(result[2], 16)} ${parseInt(result[3], 16)}` 
-        : '59 130 246'; // Default fallback
+      return result
+        ? `${parseInt(result[1], 16)} ${parseInt(result[2], 16)} ${parseInt(result[3], 16)}`
+        : '59 130 246';
     };
 
     root.style.setProperty('--primary', hexToRgb(primaryColor));
@@ -51,7 +49,9 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, primaryColor, setTheme, setPrimaryColor, toggleTheme }}>
+    <ThemeContext.Provider
+      value={{ theme, primaryColor, setTheme, setPrimaryColor, toggleTheme }}
+    >
       {children}
     </ThemeContext.Provider>
   );

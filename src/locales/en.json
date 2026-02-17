@@ -40,11 +40,8 @@
   "projects": {
     "title": "Featured Projects",
     "subtitle": "My latest main projects. You can find the rest on my GitHub page!",
-    "project_1_title": "E-Commerce Dashboard",
     "project_1_desc": "A comprehensive admin dashboard for e-commerce platforms with real-time analytics and inventory management.",
-    "project_2_title": "Social Media App",
     "project_2_desc": "A modern social media application featuring real-time messaging, post sharing, and user profiles.",
-    "project_3_title": "Travel Booking Platform",
     "project_3_desc": "An intuitive booking platform for flights and hotels with integrated map services and payment gateways."
   },
   "contact": {
@@ -65,5 +62,8 @@
   },
   "footer": {
     "rights": "All rights reserved."
+  },
+  "colorMixer": {
+    "title": "Custom Hex"
   }
 }

@@ -68,7 +68,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Actions */}
           <div className='hidden md:flex items-center gap-4'>
             <ColorPicker />
             <button
@@ -82,7 +81,6 @@ const Navbar = () => {
             <LanguageSwitcher />
           </div>
 
-          {/* Mobile Menu Button */}
           <div className='flex md:hidden gap-4 items-center'>
             <ColorPicker />
             <button
@@ -102,7 +100,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
