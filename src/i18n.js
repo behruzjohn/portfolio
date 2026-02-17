@@ -22,6 +22,7 @@ i18n
       },
     },
     fallbackLng: 'uz',
+    lng: 'uz',
     interpolation: {
       escapeValue: false,
     },
