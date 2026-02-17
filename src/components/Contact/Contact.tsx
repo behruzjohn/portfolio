@@ -40,20 +40,22 @@ const Contact = () => {
             </p>
 
             <div className='space-y-6'>
-              <a
-                href='mailto:baxtiyorovbehruzjon6789@gmail.com'
-                className='flex items-center gap-4 p-4 glass-card rounded-xl hover:shadow-lg transition-all group'
-              >
-                <div className='p-3 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors'>
-                  <Mail size={24} />
-                </div>
-                <div>
-                  <p className='text-sm text-slate-500 dark:text-slate-400'>
-                    {t('contact.label_email')}
-                  </p>
-                  <p className='font-medium text-slate-900 dark:text-white'>
-                    baxtiyorovbehruzjon6789@gmail.com
-                  </p>
+              <a href='mailto:baxtiyorovbehruzjon6789@gmail.com'>
+                <div className='p-4 rounded-xl glass-card flex items-center gap-3 hover:bg-white/60 dark:hover:bg-white/10 transition-colors cursor-pointer group'>
+                  <div className='p-2 rounded-lg bg-primary/10 text-primary'>
+                    <Mail size={20} />
+                  </div>
+                  <div className='overflow-hidden'>
+                    <p className='text-xs text-slate-500 dark:text-slate-400'>
+                      {t('about.email')}
+                    </p>
+                    <p
+                      className='font-medium text-slate-900 dark:text-white'
+                      title='baxtiyorovbehruzjon6789@gmail.com'
+                    >
+                      baxtiyorovbehruzjon6789@gmail.com
+                    </p>
+                  </div>
                 </div>
               </a>
 
