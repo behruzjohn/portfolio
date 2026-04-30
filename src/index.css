@@ -12,24 +12,39 @@
   }
 
   body {
-    @apply bg-slate-50 text-slate-900 dark:bg-dark dark:text-slate-100 transition-colors duration-300;
+    @apply bg-slate-50 text-slate-900 dark:bg-dark dark:text-slate-100 transition-colors duration-500 overflow-x-hidden;
   }
 
   ::selection {
-    @apply bg-primary/30 text-primary;
+    @apply bg-primary/30 text-neon-cyan;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-black/20 dark:bg-white/10 rounded-full hover:bg-black/40 dark:hover:bg-white/20 transition-colors;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
   }
 }
 
 @layer utilities {
   .glass {
-    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-lg dark:bg-black/40 dark:border-white/10;
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg dark:bg-black/30 dark:border-white/10;
   }
 
   .glass-card {
-    @apply bg-white/50 backdrop-blur-md border border-white/20 shadow-xl dark:bg-white/5 dark:border-white/10 hover:border-primary/50 transition-all duration-300;
+    @apply bg-white/50 backdrop-blur-xl border border-white/30 shadow-xl dark:bg-white/5 dark:border-white/10 hover:border-neon-cyan/40 hover:shadow-[0_0_20px_rgba(0,255,255,0.15)] transition-all duration-300;
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-neon-blue via-neon-cyan to-neon-purple;
   }
 }

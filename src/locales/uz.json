@@ -49,7 +49,7 @@
   },
   "contact": {
     "title": "Bog'lanish",
-    "subtitle": "Biror loyiha ustida ishlayapsizmi yoki hamkorlik qilmoqchimisiz? Murojaat qilishdan tortinmang. Men har doim yangi loyihalar, ijodiy g‘oyalar yoki sizning vizyonlaringizga qo‘shilish imkoniyatlarini muhokama qilishga tayyorman.",
+    "subtitle": "Biror loyiha ustida ishlayapsizmi yoki hamkorlik qilmoqchimisiz? Murojaat qilishdan tortinmang. Men har doim yangi loyihalar, ijodiy g‘oyalar yoki sizning hohishingizni qo‘shilish imkoniyatlarini muhokama qilishga tayyorman.",
     "info_title": "Kontakt ma’lumotlari",
     "label_name": "Ism",
     "placeholder_name": "Sizning ismingiz",
@@ -61,7 +61,7 @@
     "call_me": "Qo‘ng‘iroq qiling",
     "placeholder_message": "Sizning xabaringiz...",
     "send_btn": "Xabar yuborish",
-    "btn-placeholder": "Mening loyiham haqida aytib bering..."
+    "btn-placeholder": "Mening loyiham haqida fikringizni qoldiring..."
   },
   "footer": {
     "rights": "Barcha huquqlar himoyalangan."

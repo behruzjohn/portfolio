@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import myPhoto from '../../../public/images/myPhotos.jpg';
+import myPhoto from '../../../public/images/Default-welcomer.png';
 import { useTranslation } from 'react-i18next';
 import { MapPin, Mail, Calendar, Building2 } from 'lucide-react';
 
